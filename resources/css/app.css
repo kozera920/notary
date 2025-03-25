@@ -1,0 +1,37 @@
+/* @import 'components/form'; */
+@import 'components/button';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+a { 
+    text-decoration: none !important;
+  }
+.video-call-box video{ 
+    border-radius: 10px;
+    margin-bottom: 10px;;
+}
+.text-active{
+    color: #F4AF24;
+}
+.dashboard-card{
+    position: relative;
+    overflow: hidden;
+    background-color: #979aaf !important;
+}
+.dashboard-card svg{
+    position: absolute;
+  fill: #e4a11d4a;
+  bottom: -20px;
+  right: -20px;
+  transform: rotateZ(10deg);
+  opacity: 0.9;
+  color: #e5a527;
+  
+}
+.dashboard-card h1{
+    color: #F4AF24;
+}
+.getstarted-page .text-blue-600{
+    color: #F4AF24;
+}
